@@ -104,17 +104,52 @@ int main ()
 	
 	int age;
 	printf("Enter your age: ");
-	
-	
-	
-	
-	
-	
-	
+	scanf("%d", &age);
+	printf("You got an %c on the test \n", age );
 
-	
+	char grade;
+	printf("Enter your grade: ");
+	scanf("%c", &grade);
+	printf("You got an %c on the test \n", grade);
+
+	double gpa;
+	printf ("Enter your gpa: ");
+	scanf("%lf", &grade);
+	printf ("You got an %c on the test \n", grade);
+
+	double gpa;
+	printf ("Enter your gpa: ");
+	scanf("%lf", &gpa);
+	printf("Your gpa is %f /n", gpa);
+
+//ARRAYS
+
+int luckyNumbers[6];
+//int luckyNumber[6] = {4, 8, 15, 16, 23, 42};
+// indexes: 0 1 2 3 4 5
+
+luckyNumbers[0] = 90;
+printf ("%d \n", luckyNumbers[0]);
+printf("%d \n", luckyNumbers[1]);
+
+// N Dimensional Arrays
+
+//int numberGrid[2][3];
+
+int numberGrid[2][3] = {{1, 2, 3}, {4, 5, 6}};
+numberGrid[0][1] = 99;
+
+printf("%d \n", numberGrid[0][0]);
+printf("%d \n", numberGrid[0][1]);
 
 
 
-	return 0;
+
+//functions
+
+//int addNumbers(int num1, int num2);
+
+return 0;
+
+
 }
